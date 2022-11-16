@@ -16,7 +16,9 @@
 export default {
   methods: {
     redirect() {},
-    back() {},
+    back() {
+      this.$router.go(-1)
+    },
     forward() {}
   }
 
