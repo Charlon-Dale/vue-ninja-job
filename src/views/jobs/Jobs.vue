@@ -7,6 +7,9 @@
             </router-link>
         </div>
     </div>
+    <div v-else>
+        <p>Loading jobs...</p>
+    </div>
     
 </template>
 
